@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "",
+      "run": "javac ifElse.java && java ifElse",
+      "input": "",
+      "output": "April is in the Spring.",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
