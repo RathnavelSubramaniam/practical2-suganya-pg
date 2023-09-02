@@ -1,6 +1,6 @@
 class Example { 
 public static void main(String args[]) { 
-		int month = 4;
+		int month = 6;
 		String season;
 		switch (month) {
 		case 12:
@@ -26,7 +26,6 @@ public static void main(String args[]) {
 		default:
 		season = "Bogus Month";
 		}
-		System.out.println("April is in the " + season + ".");
+		System.out.println("The given month is in the " + season + ".");
 }
 }
-
